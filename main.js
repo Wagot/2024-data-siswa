@@ -24,13 +24,13 @@ const app = initializeApp(firebaseConfig);
 const db =getFirestore(app);
 
 export async function ambilDaftarSiswa () {
-  const siswaRef = collection(db,"Siswa");
-  const q = query(siswaRef,orderBy("Nama"));
+  const siswaRef = collection(db,"siswa");
+  const q = query(siswaRef,orderBy("nama"));
   const querySnapshot = await getDocs(q);
   
   let retval = [];
   querySnapshot.forEach(() => {
-    rerval.push({ id: doc.id, nama: doc.data().Nama });
+    rerval.push({ id: doc.id, nama: doc.data().nama });
   }
     )
     return retval;
