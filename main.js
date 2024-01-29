@@ -12,12 +12,12 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDFYmmVvk-jLZIeAdYKiTwVw2jqd4VINFA",
-  authDomain: "insan-cemerlang.firebaseapp.com",
-  projectId: "insan-cemerlang",
-  storageBucket: "insan-cemerlang.appspot.com",
-  messagingSenderId: "579109661574",
-  appId: "1:579109661574:web:4a7cd4060f70eded945a07"
+  apiKey : "AIzaSyAC9R3lx2-sNaMtILOa_6_e_xzBxk2aYRA" , 
+  authDomain : "contoh-proyek-53f21.firebaseapp.com" , 
+  projectId : "contoh-proyek-53f21" , 
+  penyimpananBucket : "contoh-proyek-53f21.appspot.com" , 
+  pesanSenderId : "930407288764" , 
+  appId : "1:930407288764:web:98b983922a95a62a8e25b9" 
 };
 
 const app = initializeApp(firebaseConfig);
