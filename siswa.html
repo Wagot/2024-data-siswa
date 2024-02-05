@@ -27,14 +27,15 @@
     let elemenNamaSiswa = $('#daftar-siswa');
     let daftarSiswa = await ambilDaftarSiswa();
     
-    daftarSiswa.forEach((d) => {
+    daftarSiswa.forEach((data) => {
       elemenNamaSiswa.append(
         '<li>' +
         data.nama +
-        '</>'
+        '</li/>'
         );
     });
   });
+  </script>
 </body>
 
 </html>
