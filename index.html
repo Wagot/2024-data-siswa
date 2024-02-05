@@ -31,7 +31,7 @@
   let elemenNamaSiswa = document.getElementById('input-nama');
   
   tombolTambah.addEventListener('click', async function (el) {
-    el.preventDefault();
+      el.preventDefault();
     await tambahSiswa(elemenNamaSiswa.value);
     window.location.href = 'siswa.html';
   });
